@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso: Automatas y Lenguajes Formales</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+   <style>
+    body, h1, h2, h3, h4, h5, h6 {
+      font-family: "Century Gothic", sans-serif;
+    }
+
+    .navbar {
+      background-color: #111; 
+    }
+
+    header {
+      background-color:rgb(0, 34, 99); 
+      color: #fff; 
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Curso ALF</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#puntos-clave">Puntos Clave</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#carrusel">Carrusel</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#temas-desarrollados">Temas Desarrollados</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Curso: Automatas y Lenguajes Formales</h1>
+  </header>
+
+  <main>
+    <section id="puntos-clave">
+      <h2>Puntos Clave del Curso</h2>
+      <ul>
+        <li>Tema 1: Introducción a Automatas</li>
+        <li>Tema 2: Lenguajes Formales y Gramáticas</li>
+        <li>Tema 3: Automatas Finitos Deterministas (AFD)</li>
+        <li>Tema 4: Automatas Finitos No Deterministas (AFND)</li>
+      </ul>
+    </section>
+
+    <section id="carrusel">
+      <h2>Carrusel: Tema del Curso</h2>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="1.png" class="d-block w-100" alt="Slide 1">
+          </div>
+          <div class="carousel-item">
+            <img src="2.png" class="d-block w-100" alt="Slide 2">
+          </div>
+          <div class="carousel-item">
+            <img src="3.png" class="d-block w-100" alt="Slide 3">
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="temas-desarrollados">
+      <h2>Temas Desarrollados</h2>
+
+      <div class="tema">
+        <h3>Tema 1: Introducción a Automatas</h3>
+        <p>Los autómatas son modelos matemáticos y abstractos que representan sistemas que pueden cambiar de un estado a otro en respuesta a un conjunto de entradas o símbolos. En la teoría de autómatas, se estudian diferentes tipos de autómatas, como los autómatas finitos, autómatas de pila y máquinas de Turing. Los autómatas tienen aplicaciones en diversas áreas, como la teoría de la computación, la inteligencia artificial, la compilación de lenguajes de programación y la verificación de sistemas. En este tema, exploraremos los conceptos fundamentales de los autómatas, sus componentes, la representación gráfica y la notación utilizada para describir su comportamiento. También analizaremos ejemplos prácticos de autómatas en la resolución de problemas computacionales.</p>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/3Od1y1Dzz_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+      </div>
+
+      <div class="tema">
+        <h3>Tema 2: Lenguajes Formales y Gramáticas</h3>
+        <p>Los lenguajes formales son conjuntos de cadenas de símbolos que siguen reglas específicas y se utilizan para describir diversos fenómenos en ciencias de la computación y lenguajes de programación. Una gramática formal es una descripción matemática que define la estructura y las reglas de formación de un lenguaje formal. En este tema, abordaremos las gramáticas formales, sus tipos (como gramáticas regulares y gramáticas libres de contexto) y su importancia en la generación de lenguajes. Exploraremos cómo las gramáticas definen la sintaxis de los lenguajes y cómo se pueden utilizar para analizar y generar cadenas válidas dentro de un lenguaje formal. También veremos ejemplos prácticos de gramáticas y cómo se aplican en el diseño de lenguajes de programación.</p>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/fQQ6Rs7nc_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+      </div>
+
+      <div class="tema">
+        <h3>Tema 3: Automatas Finitos Deterministas (AFD)</h3>
+        <p>Los autómatas finitos deterministas (AFD) son una clase especial de autómatas que tienen un número finito de estados y, para cada símbolo de entrada, hay una transición determinística única desde un estado dado a otro. Los AFD son fundamentales en el estudio de lenguajes formales y juegan un papel importante en la implementación de analizadores léxicos en compiladores. En este tema, profundizaremos en los AFD y su estructura, sus componentes (como el alfabeto, los estados, la función de transición y el estado inicial y de aceptación), y cómo se utilizan para reconocer lenguajes regulares. Aprenderemos cómo construir AFD a partir de expresiones regulares y cómo utilizarlos para verificar si una cadena pertenece a un lenguaje formal dado. Además, exploraremos ejemplos de AFD y cómo se aplican en la resolución de problemas prácticos.</p>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/ScR1T1DME14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer>
+    <p>Derechos de autor © 2023 - RUDY ALEXANDER AMADO SOTO ROSIL 9490-20-387</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
